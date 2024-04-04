@@ -1,0 +1,42 @@
+/* selectors & property */
+/*  selecting by tag name */
+h2{
+    color: red;
+    background-color: green;
+    border: 5px solid rgb(88, 88, 131);
+    text-align: center;
+}
+
+.black-bg{
+    background-color: black;
+
+}
+.third-h2{
+    margin-top: 40px;
+    border-radius: 20%;
+}
+.white-font{
+    color: white;
+}
+
+#h2id{
+    background-color: blue;
+}
+h2  > span{
+    font-style: italic;
+}
+/*  id > class > tag name */
+
+header ul {
+    color: red;
+}
+
+/* sizes */
+/* widht and height */
+
+div{
+    width: 50%;
+    height: 100px;
+    /* overflow: scroll; */
+    border: 3px solid black;
+}
